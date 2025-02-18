@@ -1,0 +1,186 @@
+{
+  "doctors": [],
+  "patients": [],
+  "clinicalNotes": {
+    "notes": [
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739918447224,
+        "createdAt": "2025-02-18T22:40:47.224Z"
+      },
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739918551276,
+        "createdAt": "2025-02-18T22:42:31.276Z"
+      },
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739918584779,
+        "createdAt": "2025-02-18T22:43:04.779Z"
+      },
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739918645880,
+        "createdAt": "2025-02-18T22:44:05.881Z"
+      },
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739918698810,
+        "createdAt": "2025-02-18T22:44:58.810Z"
+      },
+      {
+        "content": "Patient shows good recovery progress",
+        "category": "General Notes",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "id": 1739919017235,
+        "createdAt": "2025-02-18T22:50:17.235Z"
+      }
+    ],
+    "categories": [
+      "General Notes",
+      "Treatment Plans",
+      "Patient History",
+      "Lab Results"
+    ]
+  },
+  "prescriptions": {
+    "active": [
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739918447265,
+        "createdAt": "2025-02-18T22:40:47.265Z"
+      },
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739918551302,
+        "createdAt": "2025-02-18T22:42:31.302Z"
+      },
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739918584811,
+        "createdAt": "2025-02-18T22:43:04.811Z"
+      },
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739918645906,
+        "createdAt": "2025-02-18T22:44:05.906Z"
+      },
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739918698841,
+        "createdAt": "2025-02-18T22:44:58.841Z"
+      },
+      {
+        "medication": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours",
+        "duration": "5 days",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "pharmacy": "Local Pharmacy",
+        "id": 1739919017286,
+        "createdAt": "2025-02-18T22:50:17.286Z"
+      }
+    ],
+    "history": [],
+    "templates": []
+  },
+  "appointments": {
+    "upcoming": [
+      {
+        "dateTime": "2024-03-20T17:00:00.000Z",
+        "patientId": "12345",
+        "doctorId": "67890",
+        "type": "standard",
+        "notes": "Regular checkup",
+        "id": 1739919017301,
+        "createdAt": "2025-02-18T22:50:17.301Z"
+      }
+    ],
+    "past": [],
+    "cancelled": []
+  },
+  "systemConfig": {
+    "workingHours": {
+      "monday": {
+        "start": "09:00",
+        "end": "17:00",
+        "lunch": "12:00"
+      },
+      "tuesday": {
+        "start": "09:00",
+        "end": "17:00",
+        "lunch": "12:00"
+      },
+      "wednesday": {
+        "start": "09:00",
+        "end": "17:00",
+        "lunch": "12:00"
+      },
+      "thursday": {
+        "start": "09:00",
+        "end": "17:00",
+        "lunch": "12:00"
+      },
+      "friday": {
+        "start": "09:00",
+        "end": "17:00",
+        "lunch": "12:00"
+      }
+    },
+    "appointmentDurations": {
+      "standard": 30,
+      "emergency": 15
+    },
+    "backupSettings": {
+      "frequency": "daily",
+      "retention": 30
+    }
+  }
+}

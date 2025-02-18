@@ -1,4 +1,7 @@
+import VoiceRecorder from './components/recorder.js';
+
 const captions = window.document.getElementById("captions");
+let recorder = null;
 
 async function getMicrophone() {
   const userMedia = await navigator.mediaDevices.getUserMedia({
@@ -54,7 +57,7 @@ window.addEventListener("load", () => {
 
   socket.on("connect", async () => {
     console.log("client: connected to websocket");
-    await start(socket);
+    recorder = new VoiceRecorder(socket);
   });
 
   socket.on("transcript", (transcript) => {
